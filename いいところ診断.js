@@ -57,6 +57,7 @@ const answers = [
     '###userName###のいいところは気配りです。###userName###の配慮が多くの人を救っています。',
     '###userName###のいいところはその全てです。ありのままの###userName###自身がいいところなのです。',
     '###userName###のいいところは自制心です。やばいと思ったときにしっかりと衝動を抑えられる###userName###が皆から評価されています。',
+    '###userName###のいいところは優しさです。###userName###の優しい雰囲気や立ち振る舞いに多くの人が癒やされています。',
     '###userName###のいいところはありません。乙でーすwww'
 ];
 /**
@@ -71,7 +72,7 @@ function assessment(userName) {
     }
     let result = answers[textNumber % (answers.length - 1)];
     //if (userName === '無') {　まずそうなため削除
-    //    result = answers[16]
+    //    result = answers[answers.length - 1];
     //}
     result = result.replaceAll('###userName###',userName);
     console.log(result);
