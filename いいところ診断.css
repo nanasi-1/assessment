@@ -1,0 +1,41 @@
+body{
+    background-color: #f9f9f9;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+button{
+    padding: 5px 15px;
+    margin-left: 5px;
+    color: white;
+    background-color: rgba(68, 26, 105, 0.488);
+    font-size: 16px;
+    border-style: none;
+    border-radius: 5px;
+}
+input{
+    height: 20px;
+    border: solid rgba(68, 26, 105, 0.488);
+    border-radius: 5px;
+    padding: 5px;
+}
+h1{
+    border-bottom: solid rgba(68, 26, 105, 0.488) 2px;
+    margin-left: -20px;
+    padding-left: 20px;
+}
+.twitter-hashtag-button{
+    margin-top: 20px;
+    margin-left: -20px;
+}
+#result_area{
+    margin-top: 30px;
+    margin-left: -20px;
+    padding: 15px 20px;
+    border: solid rgba(68, 26, 105, 0.488) 1px;
+}
+#arisanhabaka{
+    color: rgba(68, 26, 105, 0.488);
+    display: none;
+}
