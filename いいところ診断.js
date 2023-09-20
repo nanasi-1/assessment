@@ -70,9 +70,9 @@ function assessment(userName) {
         textNumber = textNumber + userName.charCodeAt(i);
     }
     let result = answers[textNumber % (answers.length - 1)];
-    if (userName === 'ありさ') {
-        result = answers[16]
-    }
+    //if (userName === '無') {　まずそうなため削除
+    //    result = answers[16]
+    //}
     result = result.replaceAll('###userName###',userName);
     console.log(result);
     return result
