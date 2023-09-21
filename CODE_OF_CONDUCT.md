@@ -81,7 +81,7 @@ Examples of unacceptable behavior include:
 容認することができない行動は、例えば次のとおりです。
 
 * 性的な言葉や画像の使用、種類の性的な注目や誘いかけ、およびあらゆる種類の問題行為
-* 荒らし行為、侮辱的または軽蔑的なコメント、個人的または政治的な攻撃
+* 荒らし行為、侮辱的または中傷的なコメント、個人的または政治的な攻撃
 * 公的または私的な嫌がらせ
 * 他人の個人情報（住所やメールアドレスなど）の、明示的な許可がない公開
 * 職務上不適切と見なされるその他の行為
@@ -104,7 +104,7 @@ Examples of unacceptable behavior include:
 * 職業上不適切と合理的に考えられるその他の行為
 
 
-## Enforcement Responsibilities
+## Enforcement Responsibilities / 実施責任 / 執行責任
 
 Community leaders are responsible for clarifying and enforcing our standards of
 acceptable behavior and will take appropriate and fair corrective action in
@@ -115,6 +115,22 @@ Community leaders have the right and responsibility to remove, edit, or reject
 comments, commits, code, wiki edits, issues, and other contributions that are
 not aligned to this Code of Conduct, and will communicate reasons for moderation
 decisions when appropriate.
+
+... It says, "I probably can't do it.
+
+<hr>
+
+コミュニティのリーダーは、許容される行動の基準を明確にし、実施する責任があるかもしれません。  
+また、不適切、脅迫的、攻撃的、または有害とみなされる行動に対しては、適切かつ公正な是正措置を取れないと思います。
+
+コミュニティのリーダーは、この行動規範にそぐわないコメント、コミット、コード、Wiki編集、イシュー、  
+その他を削除、編集、拒否する権利と責任を有し、その場合は決定理由を伝えます。
+
+<hr>
+
+コミュニティリーダーは、許容される行動の基準を明確にし、実施する責任があり、不適切、脅迫的、攻撃的、または有害と見なされる行動に応じて、適切で公正な是正措置を講じます。
+
+コミュニティリーダーは、コメント、コミット、コード、wikiの編集、問題、およびこの行動規範に沿っていないその他の貢献を削除、編集、または拒否する権利と責任を持ち、適切な場合はモデレーションの決定の理由を伝えます。
 
 ## Scope
 
