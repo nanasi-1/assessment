@@ -1,7 +1,20 @@
 # コントリビューター行動規範
 Contributor Covenant Code of Conduct ←どういう意味？(わかってない)
 
-## Our Pledge / 私たちの誓い
+## 構成について
+
+上から順に、
+
+- 原文
+- 自作日本語
+- 公式の日本語
+
+というふうになってます。
+
+こんなの公開して大丈夫なんかな...  
+まあ誰も見ないか()
+
+## Our Pledge / 誓い / 私たちの約束
 
 We as members, contributors, and leaders pledge to make participation in our
 community a harassment-free experience for everyone, regardless of age, body
@@ -30,7 +43,8 @@ diverse, inclusive, and healthy community.
 
 私たちは、オープンで親しみやすく、多様で包括的で健全なコミュニティに貢献する方法で行動し、交流することを誓います。
 
-## Our Standards
+
+## Our Standards / 私たちの基準 / 私たちの標準
 
 Examples of behavior that contributes to a positive environment for our
 community include:
@@ -53,6 +67,42 @@ Examples of unacceptable behavior include:
   address, without their explicit permission
 * Other conduct which could reasonably be considered inappropriate in a
   professional setting
+
+<hr>
+
+コミュニティを前向きな環境にするための行動は、例えば次のとおりです。
+
+* 他者に対して共感と優しさを示す
+* 異なる意見、視点、経験を尊重する
+* 建設的なフィードバックをし、そして素直に受け入れる
+* 自分の過ちによって影響を受けた人々に責任を認めて謝罪し、その経験から学ぶ
+* 自分だけでなく、コミュニティ全体にとって何が最善であるかに焦点を当てる
+
+容認することができない行動は、例えば次のとおりです。
+
+* 性的な言葉や画像の使用、種類の性的な注目や誘いかけ、およびあらゆる種類の問題行為
+* 荒らし行為、侮辱的または軽蔑的なコメント、個人的または政治的な攻撃
+* 公的または私的な嫌がらせ
+* 他人の個人情報（住所やメールアドレスなど）の、明示的な許可がない公開
+* 職務上不適切と見なされるその他の行為
+
+<hr>
+
+前向きな環境を作り上げることに貢献する行動の例：
+
+* 他人への共感と優しさを示す
+* 異なる意見、視点、経験を尊重する
+* 建設的なフィードバックを与え、礼儀正しく受け入れる
+* 私たちの過ちの影響を受けた人々に責任を受け入れ、謝罪し、そしてその経験から学ぶ
+* 個人としてだけでなく、コミュニティ全体にとっても最善であることに焦点を当てる
+
+許容できない行動の例は次のとおりです。
+* 性的な言葉や画像の使用、および性的な注意またはその他あらゆる種類の問題行為
+* トローリング、侮辱的または中傷的なコメント、個人的または政治的攻撃
+* 公的またはプライベートの嫌がらせ
+* 明示的な許可なしに、住所や電子メールアドレスなど、他者の個人情報を公開する
+* 職業上不適切と合理的に考えられるその他の行為
+
 
 ## Enforcement Responsibilities
 
