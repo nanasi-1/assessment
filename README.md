@@ -15,4 +15,4 @@
 
 それっぽいの見かけても気にしないで下さい。
 
-[こちら](https://nanasi-1.github.io/assessment)から遊ぶことができます。
+[こちら](https://nanasi-1.github.io/assessment/index.html)から遊ぶことができます。
