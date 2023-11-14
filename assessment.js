@@ -71,10 +71,14 @@ function assessment(userName) {
         textNumber = textNumber + userName.charCodeAt(i);
     }
     let result = answers[textNumber % (answers.length - 1)];
-    //if (userName === '無') {　まずそうなため削除
-    //    result = answers[answers.length - 1];
-    //}
     result = result.replaceAll('###userName###',userName);
     console.log(result);
     return result
 }
+
+
+// テスト用の関数
+function test() {
+    console.assert(assessment('太郎') === answers[5].replaceAll('###userName###', '太郎'), `診断結果が一致しません: ${answers[6].replaceAll('###userName###', '太郎')}`);
+}
+test();
