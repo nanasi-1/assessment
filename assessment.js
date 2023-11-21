@@ -1,36 +1,45 @@
 'use strict'
+
 const area = { //HTMLのタグの情報を持ってくる オブジェクトにしてみた
     start_button: document.getElementById('start_button'),
     result_area: document.getElementById('result_area'),
     tweet_area: document.getElementById('tweet_area'),
     user_name: document.getElementById('user_name'),
 }
+
 area.start_button.onclick = () => {
     const userName = area.user_name.value;
     if (userName.length === 0) { //入力欄が空の時は下の処理を実行しない
         return;
     }
-    area.result_area.innerText = ''; //ここから結果表示エリア
+    
+    //ここから結果表示エリア
+    
+    area.result_area.innerText = '';
     const result_h3 = document.createElement('h3')
     result_h3.innerText = '診断結果';
     area.result_area.appendChild(result_h3);
+    
     const result_p = document.createElement('p');
-    const result = assessment(userName); //ありさんは37153
+    const result = assessment(userName);
     result_p.innerText = result
     area.result_area.appendChild(result_p);
 
-    area.tweet_area.innerText = ''; //ここからツイートエリア
+    //ここからツイートエリア
+    
+    area.tweet_area.innerText = '';
     const tweet_a = document.createElement('a');
     const tweet_hrefValue = 'https://twitter.com/intent/tweet?button_hashtag='
     + encodeURIComponent('あなたのいいところ') + '&ref_src=twsrc%5Etfw'; //エラー出なかったしこれで良いよね()
+    
     tweet_a.setAttribute('href', tweet_hrefValue);
     tweet_a.setAttribute('class', 'twitter-hashtag-button');
     tweet_a.setAttribute('data_text', result);
     tweet_a.innerText = 'Tweet #あなたのいいところ';
     area.tweet_area.appendChild(tweet_a);
 
-    const tweet_script = document.createElement('script') //ここでただのリンクをボタンにしてるらしい
-    tweet_script.setAttribute('src', 'https://platform.twitter.com/widgets.js')
+    const tweet_script = document.createElement('script') // ここでただのリンクをボタンにしてるらしい
+    tweet_script.setAttribute('src', 'https://platform.twitter.com/widgets.js');
     area.tweet_area.appendChild(tweet_script)
 }
 
@@ -60,6 +69,7 @@ const answers = [
     '###userName###のいいところは優しさです。###userName###の優しい雰囲気や立ち振る舞いに多くの人が癒やされています。',
     '###userName###のいいところはありません。乙でーすwww'
 ];
+
 /**
  * 名前の文字列を渡すと診断結果を返す関数
  * @param {string} userName ユーザの名前
